@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+h1{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.listing{
+  width: 30%;
+}
+
+.map-container{
+  width: 70%;
+}
+
+.search {
+    z-index: 1;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+input{
+  height: 7vh;
+}
+.search-field {
+    width: 320px;
+    padding: 5px;
+}
+
+ul {
+    background: rgb(38, 40, 35);
+    border: 1px solid rgb(32, 28, 232);
+    overflow: auto;
+    max-height: 90vh;
+}
+
+.box {
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+}
+
+.box:hover {
+    background-color: #269abc;
+    color: white;
+}
+
+.button {
+    text-align:right;
+    padding: 5px;
+    cursor: pointer;
+    width: 300px;
+}
